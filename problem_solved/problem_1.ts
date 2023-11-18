@@ -1,23 +1,10 @@
-type User = {
-    id: number,
-    name: string
+
+
+const square = (num: (string | number)) => {
+    if(typeof num == "string") return num.length;
+    else return num*num;
 }
-const users: Array<User> = [
-    {
-        id: 12,
-        name: "Rakib"
-    },
-    {
-        id: 13,
-        name: "Sakib"
-    },
-    {
-        id: 14,
-        name: "Saim"
-    },
-    {
-        id: 15,
-        name: "Nabil"
-    }
-];
+console.log(square("444"));
+console.log(square(444));
+
 
