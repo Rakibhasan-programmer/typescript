@@ -13,4 +13,12 @@ const person1: Person = {
     }
 };
 
+const person2: Person = {
+    address: {
+        city: "Bogura",
+        street: "Banani"
+    }
+};
+
 console.log(person1);
+console.log(person2);
