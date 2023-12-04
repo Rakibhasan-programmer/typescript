@@ -1,1 +1,1 @@
-# typescript - learning+practicing
+# typescript
