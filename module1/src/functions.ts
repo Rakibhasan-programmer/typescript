@@ -6,7 +6,13 @@
 function sum(num1: number, num2: number){
     return num1+num2;
 }
-sum(1, 4);
+sum(1, 5);
+
+printCourseName("TypeScript");
+function printCourseName(name: string){
+    console.log("Course name is: " + name.toUpperCase());
+}
+
 
 
 // with explicit return type
